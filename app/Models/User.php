@@ -67,4 +67,8 @@ use HasApiTokens, HasFactory, Notifiable, TwoFactorAuthenticatable, HasRoles;
             'password' => 'hashed',
         ];
     }
+    public function mitraProfile()
+    {
+        return $this->hasOne(MitraProfile::class);
+    }
 }

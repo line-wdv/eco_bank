@@ -6,6 +6,11 @@
     </x-slot>
 
     <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 mb-4">
+    <div class="bg-red-600 text-white p-4 rounded font-bold text-center">
+        IDENTITAS DATABASE SAYA SAAT INI ADALAH: {{ auth()->user()->roles->pluck('name') }}
+    </div>
+</div>
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             
             <!-- Zona Pelanggan -->

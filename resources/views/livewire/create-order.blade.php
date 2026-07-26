@@ -16,7 +16,7 @@
     <form wire:submit.prevent="createOrder" class="space-y-5">
         
         <!-- Kategori Sampah -->
-        <div>
+        <div>   
             <label class="block text-sm font-medium text-gray-700">Kategori Sampah</label>
             <select wire:model="category" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-eco-dark focus:ring focus:ring-eco-light focus:ring-opacity-50">
                 <option value="">-- Pilih Kategori --</option>
