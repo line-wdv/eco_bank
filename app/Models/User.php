@@ -14,14 +14,8 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
-    use HasApiTokens;
-
     /** @use HasFactory<UserFactory> */
-    use HasFactory;
-use HasApiTokens, HasFactory, Notifiable, TwoFactorAuthenticatable, HasRoles;
-    use HasProfilePhoto;
-    use Notifiable;
-    use TwoFactorAuthenticatable;
+    use HasApiTokens, HasFactory, Notifiable, TwoFactorAuthenticatable, HasRoles, HasProfilePhoto;
 
     /**
      * The attributes that are mass assignable.
@@ -56,17 +50,14 @@ use HasApiTokens, HasFactory, Notifiable, TwoFactorAuthenticatable, HasRoles;
     ];
 
     /**
-     * Get the attributes that should be cast.
+     * The attributes that should be cast.
      *
-     * @return array<string, string>
+     * @var array<string, string>
      */
-    protected function casts(): array
-    {
-        return [
-            'email_verified_at' => 'datetime',
-            'password' => 'hashed',
-        ];
-    }
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+        'password' => 'hashed',
+    ];
     public function mitraProfile()
     {
         return $this->hasOne(MitraProfile::class);
