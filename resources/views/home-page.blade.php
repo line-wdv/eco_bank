@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco Bank — Ubah Sampah Jadi Nilai</title>
+    <title>Eco Bank</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
@@ -473,7 +473,6 @@
             </div>
         </div>
     </section>
-
     {{-- MITRA --}}
     <section class="block" id="mitra">
         <div class="mitra-box">

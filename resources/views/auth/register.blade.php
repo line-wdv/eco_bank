@@ -322,8 +322,8 @@
                     </svg>
                 </div>
 
-                <h3>Sampahmu, Rezekimu.</h3>
-                <p>Setor sampah lewat mitra terdekat, pantau saldo, dan lihat dampak lingkungan yang kamu buat setiap bulan.</p>
+                <h3>Panggil aku untuk sampahmu.</h3>
+                <p>Buang sampahmu lewat mitra terdeka dan lihat dampak lingkungan yang kamu buat setiap bulan.</p>
             </div>
 
             <div style="position:relative; z-index:2; margin-top: 8px;">
